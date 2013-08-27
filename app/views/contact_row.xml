@@ -1,0 +1,8 @@
+<Alloy>
+	<TableViewRow id="contactrow" contactemail="placeholder">
+		<View class="rowcontainer">
+			<Label id="contactname"></Label>
+			<View id="rowbutton" class="orange"><Label id="rowbuttoncaption">Action Button</Label></View>
+		</View>
+	</TableViewRow>
+</Alloy>

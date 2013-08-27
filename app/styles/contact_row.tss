@@ -1,0 +1,23 @@
+
+".container" : {
+  
+}
+
+".rowcontainer":{
+	height: "40dp",
+	width: Ti.UI.FILL
+}
+
+"#contactname":{
+	left: "5dp",
+	font:{
+		fontSize: "13dp"
+	}
+}
+
+".orange":{
+	right: "5dp",
+	width: "100dp",
+	backgroundColor: "#E86304",
+	height: Ti.UI.FILL
+}

@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container">
+		<TableView id="contacts" onClick="clickTableHandler">
+		</TableView>
+	</Window>
+</Alloy>
