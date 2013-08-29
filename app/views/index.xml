@@ -1,5 +1,8 @@
 <Alloy>
 	<Window class="container">
+		<View id="navigationBar" height="50dp" width="Ti.UI.FILL" >
+			<Label id="label">Address Book</Label>
+		</View>
 		<TableView id="contacts" onClick="clickTableHandler">
 		</TableView>
 	</Window>

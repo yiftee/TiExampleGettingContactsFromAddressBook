@@ -21,3 +21,6 @@
 	backgroundColor: "#E86304",
 	height: Ti.UI.FILL
 }
+".gift_btn":{
+	backgroundImage:'images/gift_48px.png',
+}
