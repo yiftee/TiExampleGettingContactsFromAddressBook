@@ -8,6 +8,7 @@
 	"os:ios": {},
 	"os:mobileweb": {},
 	"dependencies": {
-		"n1.fokkezb.button": "1.3"
+		"nl.fokkezb.button": "1.3",
+		"com.yiftee.gifts": "1.0"
 	}
 }

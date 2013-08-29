@@ -1,9 +1,9 @@
 <Alloy>
-	<TableViewRow id="contactrow" contactemail="placeholder">
+	<TableViewRow id="contactrow" contactemail="placeholder" contactphone="">
 		<View class="rowcontainer">
 			<Label id="contactname"></Label>
-			<Widget src="nl.fokkezb.button" onClick="myCallback"  title="My title" style="bs-default" />
-			<View id="rowbutton" class="orange"><Button class="gift_btn" id="rowbuttoncaption" top="10" width="100" height="50" /></View>
+			<Widget src="nl.fokkezb.button" onClick="myCallback" icon="images/gift_circle.png" class="gift_button" style="bs-link" />
+			
 		</View>
 	</TableViewRow>
 </Alloy>

@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="giftsWindow" class="container">
+    <View id="navigationBar" height="50dp" width="Ti.UI.FILL" >
+			<Label id="label">Address Book</Label>
+			<Widget src="nl.fokkezb.button" onClick="closeWindow"  class="close_link" title="Close" style="bs-link" />
+		</View>
+		<Widget src="com.yiftee.gifts" id="gifts_view"/>
+	</Window>  
+</Alloy>

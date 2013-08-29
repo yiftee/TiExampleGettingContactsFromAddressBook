@@ -4,3 +4,7 @@ build/*
 plugins/*
 
 .DS_Store
+
+app/.DS_Store
+
+app/widgets/.DS_Store

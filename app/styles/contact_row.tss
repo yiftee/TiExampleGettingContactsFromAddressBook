@@ -15,12 +15,11 @@
 	}
 }
 
-".orange":{
-	right: "5dp",
-	width: "100dp",
-	backgroundColor: "#E86304",
-	height: Ti.UI.FILL
-}
-".gift_btn":{
-	backgroundImage:'images/gift_48px.png',
+
+
+
+".gift_button":{
+	width: "50dp",
+	height: "50dp",
+	right: "5dp"
 }

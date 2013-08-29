@@ -31,10 +31,16 @@ function loadContacts(){
 			}catch(e){
 				var email='';
 			}
+			try{
+				var phone=item.phone.mobile[0];
+			}catch(e){
+				var phone='';
+			}
 
 			var payload={
 				name:item.fullName,
-				email: email
+				email: email,
+				phone: phone
 			}
 			// note: email is hardcoded to home email.  In real life we need to analyze the contents
 			// of this field and use the proper one...grabbing the email needs some work
