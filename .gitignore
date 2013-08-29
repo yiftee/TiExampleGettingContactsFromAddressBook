@@ -2,3 +2,5 @@
 Resources/*
 build/*
 plugins/*
+
+.DS_Store
