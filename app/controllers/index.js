@@ -28,11 +28,23 @@ function loadContacts(){
 
 			try{
 				var email=item.email.home[0];
+				console.log(email);
+				if(email.indexof("@") == -1)
+				{
+					email = item.email.work[0];
+				}
+				console.log(email);
+				if(email.indexof("@") == -1)
+				{
+					email = item.email.other[0];
+				}
+				console.log(email);
 			}catch(e){
 				var email='';
 			}
 			try{
 				var phone=item.phone.mobile[0];
+
 			}catch(e){
 				var phone='';
 			}
@@ -57,7 +69,7 @@ function loadContacts(){
 
 function clickTableHandler(e){
 	if (e.source.id === 'rowbutton' || e.source.id==='rowbuttoncaption'){
-		alert('Send email to : ' + e.row.contactemail);	
+		
 	}
 }
 

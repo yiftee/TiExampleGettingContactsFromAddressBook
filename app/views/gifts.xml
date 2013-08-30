@@ -4,6 +4,6 @@
 			<Label id="label">Address Book</Label>
 			<Widget src="nl.fokkezb.button" onClick="closeWindow"  class="close_link" title="Close" style="bs-link" />
 		</View>
-		<Widget src="com.yiftee.gifts" id="gifts_view"/>
+		<Widget src="com.yiftee.gifts" id="gifts"/>
 	</Window>  
 </Alloy>
