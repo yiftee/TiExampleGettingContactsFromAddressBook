@@ -2,13 +2,13 @@ var args=arguments[0] || {};
 
 $.contactname.text=args.name;
 var name = args.name;
-$.contactrow.contactemail=args.email;
-$.contactrow.contactphone=args.phone;
+var contactemail=args.email;
+var contactphone=args.phone;
 
 $.contactrow.selectionStyle = Titanium.UI.iPhone.TableViewCellSelectionStyle.None;
 
 function myCallback(){
 
-  var w = Alloy.createController("gifts", {sender_name:"Aldo", recipient_name:name}).getView();
+  var w = Alloy.createController("gifts", {recipient_email:contactemail, recipient_name:name, recipient_phone:contactphone}).getView();
 	w.open();
 }
